@@ -1,0 +1,167 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background: #3A5855;
+   background: linear-gradient(180deg, rgba(11,85,83,0.9098635993485342) 0%, rgba(105,8,8,0.9359222312703583) 66%, rgba(3,3,10,1) 88%)fixed;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   box-sizing: border-box;
+}
+
+header{
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background: rgb(62, 91, 88, 0.99);
+}
+
+.title {
+  color: #d9d9d9;
+  font-weight: bolder;
+  font-size: 6.8vmin;
+  padding-top: 2%;
+  padding-left: 5%;
+  float: left;
+  max-width: 45%;
+}
+.subheader{
+  width: 50%;
+  padding-top: 3.90%;
+  padding-right: 5%;
+  float: right;
+  clear: right;
+  text-align: right;
+}
+.subheaderlink, .chunk{
+  font-size: 2.5vmin;
+  display: inline;
+  padding-top: 2%;
+  padding-left: 4%;
+}
+.subheaderlink{
+  color: #73e600;
+}
+.chunk{
+  color: #999999;
+}
+.subheaderlink:hover, .title:hover{
+  color: white;
+}
+
+.photoHeader{
+  padding-top: 125px;
+  width: 100%;
+}
+img{
+  display: block;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+article{
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1.4em;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+hr{
+  width: 61.8%;
+}
+footer{
+  color: #666666;
+  text-align: center;
+  height: 18px;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  bottom: 0px;
+  padding-top: 4px;
+}
+.indent {
+  text-indent: 50px;
+  padding-bottom: 15px;
+}
+.in{
+  padding-left: 24px;
+}
+.leftList{
+  float:left;
+  clear: left;
+  width: 33%;
+
+}
+.rightList{
+  float: right;
+  clear: right;
+  text-align: right;
+
+}
+.Row {
+    display: table;
+    width: 100%;
+}
+.Column {
+    display: table-cell;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    text-align: left;
+}
+
+.breaker{
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  text-align: center;
+  height: 28px;
+}
+
+@media only screen and (max-width: 1070px) {
+  .chunk{
+    display: none;
+  }
+  .photoHeader{
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .Row {
+      display:block;
+      width: inherit;
+  }
+  .Column {
+      display: block;
+      text-align: left;
+  }
+}
+
+
+@media only screen and (max-width: 750px){
+  header{
+    padding-bottom: 5px;
+  }
+ .title{
+   float: none;
+ }
+ .photoHeader{
+   padding-top: 75px;
+ }
+  .subheader{
+    padding-top: 0;
+    width: 100%;
+    float:none;
+    clear: none;
+    text-align: center;
+  }
+
+}
