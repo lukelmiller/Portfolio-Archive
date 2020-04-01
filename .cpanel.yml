@@ -1,15 +1,18 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/n585b05lbbqq/public_html/blog/
-    - /bin/cp/blog index.html $DEPLOYPATH
-    - export DEPLOYPATH=/home/n585b05lbbqq/public_html/contact_me/
-    - /bin/cp/contact_me index.html $DEPLOYPATH
-    - export DEPLOYPATH=/home/n585b05lbbqq/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - export DEPLOYPATH=/home/n585b05lbbqq/public_html/me/
-    - /bin/cp/me index.html $DEPLOYPATH
-    - export DEPLOYPATH=/home/n585b05lbbqq/public_html/projects/
-    - /bin/cp/projects index.html $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/blog /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/index.html /home/n585b05lbbqq/public_html
+
+    # - export DEPLOYPATH=/home/n585b05lbbqq/public_html/blog/
+    # - /bin/cp /blog/index.html $DEPLOYPATH
+    #
+    # - /bin/cp/contact_me index.html $DEPLOYPATH
+    # - export DEPLOYPATH=/home/n585b05lbbqq/public_html/
+    # - /bin/cp index.html $DEPLOYPATH
+    # - /bin/cp style.css $DEPLOYPATH
+    # - /bin/cp -R images $DEPLOYPATH
+    # - export DEPLOYPATH=/home/n585b05lbbqq/public_html/me/
+    # - /bin/cp/me index.html $DEPLOYPATH
+    # - export DEPLOYPATH=/home/n585b05lbbqq/public_html/projects/
+    # - /bin/cp/projects index.html $DEPLOYPATH
