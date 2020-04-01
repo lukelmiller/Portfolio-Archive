@@ -4,8 +4,8 @@ deployment:
     - export DEPLOYPATH=/home/n585b05lbbqq/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp -R blog $DEPLOYPATH
-    - /bin/cp -R contact_me $DEPLOYPATH
+    - /bin/cp/blog index.html $DEPLOYPATH
+    - /bin/cp/contact_me index.html $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R me $DEPLOYPATH
-    - /bin/cp -R projects $DEPLOYPATH 
+    - /bin/cp/me index.html $DEPLOYPATH
+    - /bin/cp/projects index.html $DEPLOYPATH 
