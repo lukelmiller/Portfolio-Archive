@@ -1,8 +1,15 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/blog /home/n585b05lbbqq/public_html
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/index.html /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/styles.css /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/blog /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/projects /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/me /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/contact_me /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/images /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/favicon_package_v0 /home/n585b05lbbqq/public_html
+
 
     # - export DEPLOYPATH=/home/n585b05lbbqq/public_html/blog/
     # - /bin/cp /blog/index.html $DEPLOYPATH
