@@ -2,7 +2,6 @@
 margin: 0;
 padding: 0;
 }
-
 body {
    height: 100%;
    background-size: cover;
@@ -20,7 +19,6 @@ header{
   width: 100%;
   background: rgb(62, 91, 88, 0.99);
 }
-
 .title {
   color: #d9d9d9;
   font-weight: bolder;
@@ -54,7 +52,6 @@ header{
 .subheaderlink:hover, .title:hover{
   color: white;
 }
-
 .photoHeader{
   padding-top: 125px;
   width: 100%;
@@ -63,10 +60,12 @@ img{
   display: block;
   width: 100%;
 }
-
 a{
   text-decoration: none;
   color: inherit;
+}
+hr{
+  width: 61.8%;
 }
 article{
   color: white;
@@ -76,23 +75,21 @@ article{
   text-align: justify;
   line-height: 1.4;
 }
-
-hr{
-  width: 61.8%;
-}
-footer{
-  color: #666666;
-  text-align: center;
-  height: 18px;
-  position: fixed;
-  background-color: black;
-  width: 100%;
-  bottom: 0px;
-  padding-top: 4px;
-}
 .indent {
   text-indent: 50px;
   padding-bottom: 15px;
+}
+.oddBlog, .evenBlog{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.oddBlog{
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(255,255,255,0.14889705882352944) 20%, rgba(255,255,255,0) 85%);
+}
+.evenBlog{
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.38139005602240894) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
 }
 .in{
   padding-left: 24px;
@@ -117,15 +114,22 @@ footer{
     display: table-cell;
     text-align: left;
 }
-
 .breaker{
   font-family: "Courier New", Courier, monospace;
   background-color: black;
   text-align: center;
   height: 28px;
-
 }
-
+footer{
+  color: #666666;
+  text-align: center;
+  height: 18px;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  bottom: 0px;
+  padding-top: 4px;
+}
 @media only screen and (max-width: 1190px) {
   .title{
     font-size: 6.2vw;

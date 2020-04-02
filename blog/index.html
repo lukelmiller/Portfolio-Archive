@@ -3,7 +3,8 @@
   <head>
     <meta charset = "UTF-8"/>
     <title>Blog - LLM</title>
-    <link rel="stylesheet" type="text/css" href="https://lukelmiller.me/styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://lukelmiller.me/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <header>
@@ -23,25 +24,49 @@
       <img src="https://lukelmiller.me/images/blog.png" alt="Homepod">
     </div>
 
-
-
     <article>
-
-
       <h2>BLOG</h2>
       <hr>
       <br>
-      <p></p>
-
-
-
     </article>
-
-
-
+    
+    <article id="b0">
+      <h3>My First Post</h3>
+      <h6>4.2.2020</h6>
+      <p class="indent">With this being my first post I wanted to share my ultimate goals for this
+         page of my site. I really hope for this to be a great outlet for all the nerdy
+         stuff that I don’t really feel like sharing with my non-nerdy social media
+         friends. This could entail things like my affection for HomeKit Technologies
+         or my love for politics. I truly want this to be a place for me to get my
+         options out there, even if nobody reads them. I have felt like I have not
+         really had a valuable place where I felt like I can get my writing out
+         to the world, so this is an enormous deal for me. I also hope that if you
+         are reading this you at least get sliver of enjoyment out of it. Anyways
+         thank you for reading, and stay kind & stay safe.</p>
+    </article>
 
     <footer>
       <p>&copy;2020 | <a href="https://lukelmiller.me/">Luke Miller</a> | <a href="https://lukelmiller.me/contact_me/">Contact Me</a></p>
     </footer>
+
+    <script>
+    setClasses();
+    function setClasses(){
+      var blogs = document.querySelectorAll('[id^=b]');
+      var classToSet;
+      for(var i in blogs){
+        console.log(blogs);
+        if(i==0){
+          blogs[i].style = "padding-bottom: 30px";
+        }
+        else if(i%2==0){
+          blogs[i].className = "evenBlog";
+        }
+        else if(i%2 != 0){
+          blogs[i].className = "oddBlog";
+        }
+      }
+    }
+    </script>
   </body>
 </html>
