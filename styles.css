@@ -73,10 +73,39 @@ article{
   font-size: 1.4em;
   text-align: justify;
   line-height: 1.4;
+  clear: none;
+  overflow: auto;
+}
+.leftImage{
+  float: left;
+  clear: left;
+  width: 300px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+.rightImage{
+  float: right;
+  clear: right;
+  width: 300px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+
+.blog{
+  text-indent: 50px;
+  padding-bottom: 15px;
+  float: right;
+  clear: right;
+  width: 80%;
 }
 .indent {
   text-indent: 50px;
   padding-bottom: 15px;
+}
+.in{
+  padding-left: 24px;
 }
 .oddBlog, .evenBlog{
   padding-top: 30px;
@@ -90,20 +119,15 @@ article{
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,0.38139005602240894) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
 }
-.in{
-  padding-left: 24px;
-}
 .leftList{
   float:left;
   clear: left;
   width: 33%;
-
 }
 .rightList{
   float: right;
   clear: right;
   text-align: right;
-
 }
 .Row {
     display: table;
@@ -111,11 +135,10 @@ article{
 }
 .Column {
     display: table-cell;
-    text-align: left;
 }
 .breaker{
   font-family: "Courier New", Courier, monospace;
-  background-color: black;
+  background: black;
   text-align: center;
   height: 28px;
 }
@@ -124,10 +147,13 @@ footer{
   text-align: center;
   height: 18px;
   position: fixed;
-  background-color: black;
+  background: rgb(0, 0, 0, 0.94);
   width: 100%;
   bottom: 0px;
   padding-top: 4px;
+}
+.footerLink:hover{
+  color: gray;
 }
 @media only screen and (max-width: 1190px) {
   .title{
@@ -145,11 +171,12 @@ footer{
   article{
     padding-left: 25px;
     padding-right: 25px;
-    font-size: 1em;
+    font-size: 1.3em;
   }
   .breaker{
     font-size: 1.4em;
   }
+
 }
 @media only screen and (max-width: 925px) {
   .Row {
@@ -179,6 +206,13 @@ footer{
     float:none;
     clear: none;
     text-align: center;
+  }
+  .rightImage{
+    display:none;
+  }
+  .article{
+
+    font-size: 1.2em;
   }
 
 }

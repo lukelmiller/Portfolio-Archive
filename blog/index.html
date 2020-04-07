@@ -29,26 +29,59 @@
       <hr>
       <br>
     </article>
+    <article id="b2">
+      <h3>My Smart Home</h3>
+      <h6>4.7.2020</h6>
+      <br>
+
+      <img id="i0" src="https://lukelmiller.me/images/homeApp.jpg" alt="Home App Icon">
+      <p class="indent">
+        As I am staying with my parents to save money and spend time with them during quarentine, there
+        a few things I miss about my apartment, two of which being, the internet and my HomeKit setup.
+        First off, the internet, it's so helpful. I don't know if you've ever used it but
+        its like a place where you can do everything with the push of a button,
+        truly amazing stuff. Then my smart home, even though it is controlled with a HomePod,
+        and Siri is mostly garbage, being able to say something into the air and have
+        things change in your home is next level stuff. I have smart-ified most of the
+        things: the lights, the doorbell, the thermostat, locks, the vaccum, the humidifier,
+        speakers, and the alarm system. When think of something new I want for my
+        apartment, I first think of how it can make my life easier through automation.
+        Not only because automated devices are cool, but also extremely convenient. Being away from
+        all my cool tech has made me really miss tinkering and designing my spaces
+        around it. One of the things I've been wanting to put in my space are the new Ikea
+        smart blinds. I think it super futuristic to able to automate my natural lighting to wake me up with the sun,
+        while having privacy while I sleep. These are just some of the really neat
+        things I can do and wish to do with my smart spaces in the future.</p>
+      <p class="indent">To get a bit meta, with
+        this blog I really wanted to kinda get my feet wet talking about my smart home.
+        This subject is one I that really doesn't overlap with any of my friends so
+        this blog and reddit are my only ways I can talk about my it and so this
+        avenue is something I have wanted to create for a while, without really knowing
+        the best way of going about it. So thank you for reading and I hope you
+        look forward to more writings about this to come.
+      </p>
+    </article>
     <article id="b1">
       <h3>Quarantine Thoughts</h3>
       <h6>4.4.2020</h6>
       <br>
       <p class="indent">
-        I do not think as humans we are ever satisfied. I do not know
+        I do not know
         what kind of monkey's paw I used but right before all this quarantine stuff happened
-        I was so very burned out at work. Although I truly do miss my cowokers, I honestly
+        but I was so very burned out at work. Although I truly do miss my cowokers, I honestly
         think this time I have been given is the silverist of linings. Even though I got laid
         off, I have been given so much time with my parents that I did not ever think
         would happen again post moving away for school. I was thinking the other day
         about how people always say to enjoy the now, but I don't think many ever heed
         that warning. I am choosing to make it a conscious goal to really enjoy this time with my family
         because I think I will look back at this time with very sweet memories given
-        awful circumstances.
+        awful circumstances. For this time I never knew I wished for, I am greatful and
+        happy.
       </p>
     </article>
     <article id="b0">
       <h3>My First Post</h3>
-      <h6>2.4.2020</h6>
+      <h6>4.2.2020</h6>
       <br>
       <p class="indent">With this being my first post I wanted to share my ultimate goals for this
          page of my site. I really hope for this to be a great outlet for all the nerdy
@@ -60,18 +93,19 @@
          bit of joy out of these that I want to put in. Anywho thank you for reading,
          and stay kind & stay safe (were in the 2020 quarentine at the moment for context).</p>
     </article>
-
+    <br>
+    <br>
+    
     <footer>
-      <p>&copy;2020 | <a href="https://lukelmiller.me/">Luke Miller</a> | <a href="https://lukelmiller.me/contact_me/">Contact Me</a></p>
+      <p>&copy;2020 | <a href="https://lukelmiller.me/" class="footerLink">Luke Miller</a> | <a href="https://lukelmiller.me/contact_me/" class="footerLink">Contact Me</a></p>
     </footer>
 
     <script>
     setClasses();
     function setClasses(){
+      var images = document.querySelectorAll('[id^=i]');
       var blogs = document.querySelectorAll('[id^=b]');
-      var classToSet;
       for(var i in blogs){
-        console.log(blogs);
         if(i==0){
           blogs[i].style = "padding-bottom: 30px";
         }
@@ -80,6 +114,14 @@
         }
         else if(i%2 != 0){
           blogs[i].className = "oddBlog";
+        }
+      }
+      for(var i in images){
+        if(i%2==0){
+          images[i].className = "rightImage";
+        }
+        else{
+          images[i].className = "leftImage";
         }
       }
     }
