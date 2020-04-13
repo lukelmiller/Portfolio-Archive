@@ -81,7 +81,6 @@ article{
   clear: left;
   width: 300px;
   padding-right: 40px;
-  padding-bottom: 20px;
   padding-top: 25px;
 }
 .rightImage{
@@ -89,7 +88,6 @@ article{
   clear: right;
   width: 300px;
   padding-left: 40px;
-  padding-bottom: 20px;
   padding-top: 25px;
 }
 
@@ -142,6 +140,15 @@ article{
   text-align: center;
   height: 28px;
 }
+tr{
+  display:table-cell;
+}
+.text{
+  padding-left:  20px;
+}
+.Profiles img{
+  width: 100px;
+}
 footer{
   color: #666666;
   text-align: center;
@@ -176,7 +183,18 @@ footer{
   .breaker{
     font-size: 1.4em;
   }
-
+  tr{
+    display:table-row;
+  }
+  td{
+    padding-bottom: 30px;
+  }
+  .logo{
+    padding-left: 17%;
+  }
+  .text{
+    display: table-cell;
+  }
 }
 @media only screen and (max-width: 925px) {
   .Row {
@@ -188,9 +206,8 @@ footer{
       text-align: left;
   }
 }
-
-
 @media only screen and (max-width: 750px){
+
   header{
     padding-bottom: 5px;
   }
@@ -214,5 +231,7 @@ footer{
 
     font-size: 1.2em;
   }
-
+  .logo{
+    padding-left: 0px;
+  }
 }
