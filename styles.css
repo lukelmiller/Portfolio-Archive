@@ -139,6 +139,7 @@ article{
   background: black;
   text-align: center;
   height: 28px;
+  color: #67F383;
 }
 tr{
   display:table-cell;
@@ -181,7 +182,7 @@ footer{
     font-size: 1.3em;
   }
   .breaker{
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   tr{
     display:table-row;
@@ -224,12 +225,11 @@ footer{
     clear: none;
     text-align: center;
   }
+  .breaker{
+    font-size: 1.3em;
+  }
   .rightImage{
     display:none;
-  }
-  .article{
-
-    font-size: 1.2em;
   }
   .logo{
     padding-left: 0px;
