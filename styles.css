@@ -148,6 +148,7 @@ article{
 }
 .breaker{
   font-family: "Courier New", Courier, monospace;
+  font-size: .9em;
   background: black;
   text-align: center;
   height: 28px;
@@ -195,7 +196,7 @@ footer{
     font-size: 1.4em;
   }
   .breaker{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   tr{
     display:table-row;
@@ -239,7 +240,7 @@ footer{
     text-align: center;
   }
   .breaker{
-    font-size: 1.3em;
+    font-size: 1.25em;
   }
   .rightImage{
     display:none;
