@@ -3,9 +3,10 @@
   <head>
     <meta charset = "UTF-8"/>
     <title>Projects - LLM</title>
-    <link rel="stylesheet" type="text/css" href="https://lukelmiller.me/styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://lukelmiller.me/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body>
+  <body class="projects">
 
     <header>
       <a href="https://lukelmiller.me/" class="title">Luke Miller</a>
@@ -23,20 +24,95 @@
     <div class="photoHeader">
       <img src="https://lukelmiller.me/images/project.png" alt="Woodworking Project I Made">
     </div>
-
-
     <article>
-
-
       <h2>PROJECTS</h2>
       <hr>
       <br>
-      <p></p>
-
-
-
     </article>
 
+
+    <article id="b1">
+      <h3>Branches Piece</h3>
+      <img src="https://lukelmiller.me/images/predev.png" alt="Pre-development Badge" class = "badge">
+      <h6>Start: TBD</h6>
+      <br>
+      <p class="indent"> I have this idea for an art piece for above my couch on
+        the wall. There is this space that I have been really wanting to fill,
+        but I don’t really want just any piece that I can get off the shelves.
+        I want something truly special. When I was five my parents had the
+        opportunity to buy some land outside of the city [Springfield, MO]. This
+        is where they got the privilege to build the home I grew up in. This land
+        is the real privilege though; 14 acres of pure natural Splenda. So, in the
+        spirit of this little section of earth I grew up on I want to take a branch
+        and section it into 3 parts and three frames. The three parts symbolize
+        my two siblings and I splitting apart taking what we have learned from the
+        truck, my parents, and building our own frame or family. I want to do this
+        with my father while we both have free time together, and I think it will
+        make a beautiful piece to show to the world, and by world I mean the people
+        who visit me in my apartment.</p>
+    </article>
+    <article id="b0">
+      <h3>Portfolio Website</h3>
+      <img src="https://lukelmiller.me/images/ongoing.png" alt="Inprogress Badge" class = "badge">
+      <h6>Start: 3.25.2020</h6>
+      <br>
+      <img id="i" src="https://lukelmiller.me/images/websiteProject.png" alt="Site Layout Blueprint">
+      <p class="indent">I have kinda been itching to start a site for a while now.
+         I wasn’t quite sure what I wanted it to be, but I was afraid my skills
+         in web dev were going to wither and with me probably joining the CS
+         career market, I figured ok. I have more free time now than ever with
+         having to shelter in place, and how hard can joining back in the ranks
+         of web dev be. Oh my oh my, how I have forgotten how hard it is to design
+         something with css. I decided to start with a simple floating header and
+         it took me a few days but, I am glad to say, my skills have been renewed.
+         I do plan on keeping the site up to date. I am very satisfied with
+         the progress I have made, though!</p>
+
+      <p class="indent">I do still have goals for this project. First I do want
+        to optimize the website more, like clean up my css and get rid of stuff
+        I do not need. I also wanna make sure there is no responsive design issues.
+        One of the goals with the site was to create a place for my writing, I am
+        really proud of how my blog turned out, now I just have to keep pace and
+        keep adding entries. Lastly I want to make sure my site is as secure as
+        it can be. Although the site is quite static and no data is really being
+        transferred I want to see if I can make any more security improvements
+        other than using an encrypted SSH. Plus who knows what the future holds,
+        maybe an infinite scrolling blog list, individual blog pages per post, or
+        hopefully better photos (a photo with a horse maybe?) who knows… the
+        possibilities are endless!!</p>
+    </article>
+
+
+
+
+
+
+    <script>
+    setClasses();
+    function setClasses(){
+      var images = document.querySelectorAll('[id^=i]');
+      var blogs = document.querySelectorAll('[id^=b]');
+      for(var i in blogs){
+        if(i==0){
+          blogs[i].style = "padding-bottom: 30px";
+        }
+        else if(i%2==0){
+          blogs[i].className = "evenBlog";
+        }
+        else if(i%2 != 0){
+          blogs[i].className = "oddBlog";
+        }
+      }
+      for(var i in images){
+        if(i%2==0){
+          images[i].className = "rightImage";
+        }
+        else{
+          images[i].className = "leftImage";
+        }
+      }
+    }
+    </script>
 
 
 

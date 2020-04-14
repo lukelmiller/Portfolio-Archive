@@ -70,7 +70,7 @@ article{
   color: white;
   padding-left: 100px;
   padding-right: 100px;
-  font-size: 1.4em;
+  font-size: 1.5em;
   text-align: justify;
   line-height: 1.4;
   clear: none;
@@ -90,7 +90,19 @@ article{
   padding-left: 40px;
   padding-top: 25px;
 }
-
+.projects h3{
+  float: left;
+}
+.projects h6{
+  width: 150px;
+}
+.badge{
+  float: left;
+  padding-left: 10px;
+  padding-top: 6px;
+  float: none;
+  width: 60px;
+}
 .blog{
   text-indent: 50px;
   padding-bottom: 15px;
@@ -153,7 +165,8 @@ tr{
 footer{
   color: #666666;
   text-align: center;
-  height: 18px;
+  height: 25px;
+  font-size: 1.2em;
   position: fixed;
   background: rgb(0, 0, 0, 0.94);
   width: 100%;
@@ -179,7 +192,7 @@ footer{
   article{
     padding-left: 25px;
     padding-right: 25px;
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .breaker{
     font-size: 1.2em;
