@@ -3,8 +3,7 @@ margin: 0;
 padding: 0;
 }
 body {
-   height: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     /* background-repeat: no-repeat; */
    background: black;
    background: linear-gradient(180deg, rgba(11,85,83,0.9098635993485342) 0%, rgba(105,8,8,0.9359222312703583) 66%, rgba(3,3,10,1) 88%)fixed;
