@@ -8,6 +8,7 @@ body {
    color: white;
    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    height: 100%;
+   width: 100%;
 
 }
 
@@ -152,6 +153,7 @@ article{
   text-align: center;
   height: 28px;
   color: #67F383;
+  overflow: hidden;
 }
 tr{
   display: table-cell;
@@ -212,9 +214,6 @@ footer{
     padding-right: 25px;
     font-size: 1.6em;
   }
-  .breaker{
-    font-size: 1.1em;
-  }
   tr{
     display:table-row;
   }
@@ -257,10 +256,6 @@ footer{
     clear: none;
     text-align: center;
   }
-
-  .breaker{
-    font-size: 1.25em;
-  }
   .rightImage,.leftImage{
     display:none;
   }
@@ -272,7 +267,7 @@ footer{
 @media only screen and (max-device-width: 480px) {
   footer{
     padding-top: 5px;
-    height: 70px;
+    height: 80px;
     font-size: 2em;
   }
 }

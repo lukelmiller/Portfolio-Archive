@@ -296,16 +296,15 @@
         }
         function setBits(){
           var bi  = "";
-          var chars = (window.innerWidth - 200)/13.37;
-            for(var i = 0; i < chars; i++){
-              var bit = 0;
-              var rand = Math.random();
-              if (rand>.5){
+          for(var i = 0; i < 140; i++){
+            var bit = 0;
+            var rand = Math.random();
+            if (rand>.5){
               bit = 1;
-              }
-              bi = bi + bit;
             }
-            setCount(bi);
+            bi = bi + bit;
+          }
+          setCount(bi);
         }
         (function() {
             setBits();
