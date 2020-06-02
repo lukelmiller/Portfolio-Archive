@@ -178,6 +178,17 @@ footer{
 .footerLink:hover{
   color: gray;
 }
+footer img{
+  width: 100%;
+  height: 30px;
+}
+.centered {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (prefers-color-scheme: light) {
      body {
        height: 100%;
@@ -270,4 +281,9 @@ footer{
     height: 80px;
     font-size: 2em;
   }
+  footer img{
+    width: 100%;
+    height: 90px;
+  }
+
 }

@@ -125,8 +125,19 @@
 
 
 
+
     <footer>
       <p>&copy;2020 | <a href="https://lukelmiller.me/" class="footerLink">Luke Miller</a> | <a href="https://lukelmiller.me/contact_me/" class="footerLink">Contact Me</a></p>
     </footer>
+    <script>
+      var currentdate = new Date();
+      var cur_month = currentdate.getMonth()+1;
+      console.log(cur_month);
+      if(cur_month == 6){
+        var elem = document.getElementById("foot");
+        elem.style = "background: rgba(0, 0, 0, 0)";
+        elem.innerHTML = '<a href="https://www.lukelmiller.com/me/index.html?pride=yes"><img src="https://lukelmiller.me/images/prideColorsPastel.png" alt="Pride Rainbow Colors"><p class="centered">&copy;2020 | <a class="footerLink" href="https://lukelmiller.me/" style="color: gray">Luke Miller</a> | <a class="footerLink" href="https://lukelmiller.me/contact_me/">Contact Me</a></p></a>';
+      }
+    </script>
   </body>
 </html>

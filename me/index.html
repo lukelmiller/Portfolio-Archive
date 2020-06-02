@@ -156,7 +156,8 @@
         that is an unprecedented self-image for your brain. I am proud today to finally have fought for self confidence
         and won. After years of people putting me down, I finally built myself
         up, that is something that emboldened my heart and those who put me down only
-        made me stronger for it, and for that I am grateful, but also don't be a bully, it's no good.</p>
+        made me stronger for it, and for that I am grateful,<a id="prideTarget"></a> but also don't be a bully, it's no good.</p>
+
         <br>
       <img src="https://lukelmiller.me/images/lost.png" alt="Scale going down">
       <br>
@@ -316,6 +317,14 @@
           setBits();
         });
       </script>
+      <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const pridey = urlParams.has("pride");
+        if(pridey == true){
+          document.getElementById('prideTarget').scrollIntoView();
+        }
+      </script>
 
 
 
@@ -326,5 +335,15 @@
       <footer>
         <p>&copy;2020 | <a href="https://lukelmiller.me/" class="footerLink">Luke Miller</a> | <a href="https://lukelmiller.me/contact_me/" class="footerLink">Contact Me</a></p>
       </footer>
+      <script>
+        var currentdate = new Date();
+        var cur_month = currentdate.getMonth()+1;
+        console.log(cur_month);
+        if(cur_month == 6){
+          var elem = document.getElementById("foot");
+          elem.style = "background: rgba(0, 0, 0, 0)";
+          elem.innerHTML = '<a href="https://www.lukelmiller.com/me/index.html?pride=yes"><img src="https://lukelmiller.me/images/prideColorsPastel.png" alt="Pride Rainbow Colors"><p class="centered">&copy;2020 | <a class="footerLink" href="https://lukelmiller.me/" style="color: gray">Luke Miller</a> | <a class="footerLink" href="https://lukelmiller.me/contact_me/">Contact Me</a></p></a>';
+        }
+      </script>
   </body>
 </html>
