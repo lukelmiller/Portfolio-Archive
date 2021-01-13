@@ -165,7 +165,7 @@ tr{
   width: 100px;
 }
 footer{
-  color: #666666;
+  /* color: #666666; */
   text-align: center;
   height: 25px;
   font-size: 1.2em;
