@@ -79,18 +79,18 @@ article{
 .leftImage{
   float: left;
   clear: left;
-  max-width: 300px;
+  width: 300px;
   max-height: 300px;
   padding-right: 30px;
-  padding-top: 5px;
+
 }
 .rightImage{
   float: right;
   clear: right;
-  max-width: 300px;
+  width: 300px;
   max-height: 300px;
   padding-left: 30px;
-  padding-top: 5px;
+
 }
 .projects h3{
   float: left;
