@@ -1,6 +1,7 @@
 ---
 deployment:
   tasks:
+    - export DEPLOYPATH=/home/n585b05lbbqq/public_html/
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/index.html /home/n585b05lbbqq/public_html
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/blog /home/n585b05lbbqq/public_html
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/projects /home/n585b05lbbqq/public_html
