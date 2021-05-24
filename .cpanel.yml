@@ -2,11 +2,11 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/n585b05lbbqq/public_html/
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/index.html /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/blog /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/projects /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/me /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/contact_me /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/images /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/favicon_package_v0 /home/n585b05lbbqq/public_html
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/css /home/n585b05lbbqq/public_html
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/index.html $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/blog $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/projects $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/me $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/contact_me $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/images $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/favicon_package_v0 $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/css $DEPLOYPATH
