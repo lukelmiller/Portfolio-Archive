@@ -9,9 +9,7 @@ body {
    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    height: 100%;
    width: 100%;
-
 }
-
 header{
   overflow: hidden;
   text-align: center;
@@ -124,6 +122,7 @@ article{
 }
 .in{
   padding-left: 24px;
+  
 }
 .oddBlog, .evenBlog{
   padding-top: 30px;
@@ -149,10 +148,13 @@ article{
 }
 .Row {
     display: table;
-    width: 100%;
+    width: 90%;
+    /* margin: auto;
+  align-items: center; */
 }
 .Column {
     display: table-cell;
+    
 }
 .breaker{
   font-family: "Courier New", Courier, monospace;
@@ -247,11 +249,11 @@ footer img{
   }
 }
 @media only screen and (max-width: 925px) {
-  .Row {
-      display:block;
+  .Row{
+      display: block;
       width: inherit;
   }
-  .Column {
+  .Column{
       display: block;
       text-align: left;
   }
