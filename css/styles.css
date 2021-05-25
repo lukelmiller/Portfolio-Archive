@@ -147,15 +147,12 @@ article{
   text-align: right;
 }
 .Row {
-    display: table;
-    width: 90%;
-    /* margin: auto;
-  align-items: center; */
+  display: flex;
 }
 .Column {
-    display: table-cell;
-    
+    flex: 50%; 
 }
+
 .breaker{
   font-family: "Courier New", Courier, monospace;
   font-size: .9em;
@@ -248,7 +245,7 @@ footer img{
     display: table-cell;
   }
 }
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 1000px) {
   .Row{
       display: block;
       width: inherit;
@@ -258,6 +255,7 @@ footer img{
       text-align: left;
   }
 }
+
 
 @media only screen and (max-width: 750px){
 
