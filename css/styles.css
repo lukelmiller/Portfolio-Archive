@@ -215,6 +215,10 @@ footer img{
     .breaker{
       background-color: black;
     }
+    .evenBlog{
+      background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.052258403361344574) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
+    }
 }
 @media only screen and (max-width: 1190px) {
   .title{
