@@ -4,7 +4,7 @@ padding: 0;
 }
 body {
    background: black;
-   background: linear-gradient(0deg, rgba(3,3,10,1) 12%, rgba(105,8,8,0.94) 33%, rgba(11,85,83,0.91) 100%, rgba(11,85,83,0.91) 1000%)fixed;
+   background: linear-gradient(0deg, rgba(3,3,10,1) 12%, rgba(105,8,8,0.94) 33%, rgba(11,85,83,0.91) 100%, rgba(11,85,83,0.91) 1000%) fixed;
    color: white;
    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    height: 100%;
