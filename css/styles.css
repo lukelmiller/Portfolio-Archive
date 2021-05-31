@@ -197,12 +197,12 @@ footer img{
   transform: translate(-50%, -50%);
 }
 @media (prefers-color-scheme: light) {
-     body {
-       height: 100%;
-       background: linear-gradient(180deg, rgba(208,206,206,1) 10%, rgba(40,138,255,1) 100%);
-       color: black;
-       background-attachment: local;
-       background-repeat: no-repeat;
+    body {
+      height: 100%;
+      background: linear-gradient(180deg, rgba(208,206,206,1) 10%, rgba(40,138,255,1) 100%);
+      color: black;
+      background-attachment: local;
+      background-repeat: no-repeat;
     }
     header, footer{
       background: rgb(51, 51, 51, 0.98);
@@ -218,7 +218,7 @@ footer img{
     }
     .evenBlog{
       background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.052258403361344574) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
+      background: radial-gradient(circle, rgba(0,0,0,0.052258403361344574) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
     }
 }
 @media only screen and (max-width: 1190px) {
