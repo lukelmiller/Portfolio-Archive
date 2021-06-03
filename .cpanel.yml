@@ -10,4 +10,5 @@ deployment:
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/images $DEPLOYPATH
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/favicon_package_v0 $DEPLOYPATH
     - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/css $DEPLOYPATH
-    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/Resume.pdf $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/documents $DEPLOYPATH
+    - /bin/cp -R /home/n585b05lbbqq/repositories/Portfolio-Website/resume $DEPLOYPATH
