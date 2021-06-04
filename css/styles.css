@@ -1,16 +1,16 @@
-* {
-margin: 0;
-padding: 0;
+*{
+  margin: 0;
+  padding: 0;
 }
-body {
-   background: black;
-   background: linear-gradient(0deg, rgba(3,3,10,1) 12%, rgba(105,8,8,0.94) 33%, rgba(11,85,83,0.91) 100%, rgba(11,85,83,0.91) 1000%) fixed;
-   color: white;
-   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-   height: 100%;
-   width: 100%;
-   padding-bottom: 25px;
+body{
+  background: black;
+  background: linear-gradient(0deg, rgba(3,3,10,1) 12%, rgba(105,8,8,0.94) 33%, rgba(11,85,83,0.91) 100%, rgba(11,85,83,0.91) 1000%) fixed;
+  color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 25px;
 }
 header{
   overflow: hidden;
@@ -20,7 +20,7 @@ header{
   padding-bottom: 10px;
   background: rgb(62, 91, 88, 0.99);
 }
-.title {
+.title{
   color: #d9d9d9;
   font-weight: bolder;
   font-size: 5em;
@@ -95,10 +95,10 @@ article{
   height: auto;
 }
 .projects h3{
-  float: left;
+  float: left;  
 }
 .projects h6{
-  width: 130px;
+  width: 130px; 
 }
 .badge{
   float: left;
@@ -107,7 +107,7 @@ article{
   float: none;
   width: 60px;
 }
-.indent {
+.indent{
   text-indent: 50px;
   padding-bottom: 15px;
 }
@@ -126,10 +126,10 @@ article{
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,0.38139005602240894) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
 }
-.Row {
+.Row{
   display: flex;
 }
-.Row > * {
+.Row > *{
   flex: 100%; 
 }
 .breaker{
@@ -174,26 +174,26 @@ footer img{
   transform: translate(-50%, -50%);
 }
 @media (prefers-color-scheme: light) {
-    body {
-      height: 100%;
-      background: linear-gradient(140deg, rgba(0,0,221,0.6) 12%, rgba(154,12,12,0.8) 75%, rgba(11,85,83,0.9) 1000%) fixed;
-    }
-    header, footer{
-      background: rgb(51, 51, 51, 0.98);
-    }
-    footer{
-      color: #999999;
-    }
-    h2{
-      color: white;
-    }
-    .breaker{
-      background-color: black;
-    }
-    .evenBlog{
-      background: rgb(0,0,0);
-      background: radial-gradient(circle, rgba(0,0,0,0.052258403361344574) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
-    }
+  body{
+    height: 100%;
+    background: linear-gradient(140deg, rgba(0,0,221,0.6) 12%, rgba(154,12,12,0.8) 75%, rgba(11,85,83,0.9) 1000%) fixed;
+  }
+  header, footer{
+    background: rgb(51, 51, 51, 0.98);
+  }
+  footer{
+    color: #999999;
+  }
+  h2{
+    color: white;
+  }
+  .breaker{
+    background-color: black;
+  }
+  .evenBlog{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.052258403361344574) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
+  }
 }
 @media only screen and (max-width: 1190px) {
   .title{
@@ -228,7 +228,7 @@ footer img{
 }
 @media only screen and (max-width: 1000px) {
   .Row{
-      display: block;
+    display: block;
   }
 }
 @media only screen and (max-width: 750px){
@@ -236,10 +236,10 @@ footer img{
     padding-bottom: 10px;
   }
   .title{
-   float: none;
+    float: none;
   }
   .photoHeader{
-   padding-top: 90px;
+    padding-top: 90px;
   }
   .subheader{
     padding-top: 0;
