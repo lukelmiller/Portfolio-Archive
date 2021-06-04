@@ -10,6 +10,7 @@ body {
    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
    height: 100%;
    width: 100%;
+   padding-bottom: 25px;
 }
 header{
   overflow: hidden;
@@ -128,8 +129,8 @@ article{
 .Row {
   display: flex;
 }
-.Column {
-  flex: 50%; 
+.Row > * {
+  flex: 100%; 
 }
 .breaker{
   font-family: "Courier New", Courier, monospace;
@@ -228,11 +229,6 @@ footer img{
 @media only screen and (max-width: 1000px) {
   .Row{
       display: block;
-      width: inherit;
-  }
-  .Column{
-      display: block;
-      text-align: left;
   }
 }
 @media only screen and (max-width: 750px){
@@ -260,6 +256,9 @@ footer img{
   }
 }
 @media only screen and (max-device-width: 480px) {
+  body{
+    padding-bottom: 85px;
+  }
   footer{
     padding-top: 5px;
     height: 80px;
