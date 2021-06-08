@@ -173,6 +173,23 @@ footer img{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.icons{
+  flex: 15%;
+  align-self: center;
+  height: 100%; 
+  width: 100%;
+  max-height: 55px;
+}
+.icon-link{
+  flex: 15%;
+  align-self: center;
+  height: 100%; 
+  width: 100%;
+  max-height: 55px;
+}
+.icon-link:hover{
+  color: #73e600;
+}
 @media (prefers-color-scheme: light) {
   body{
     height: 100%;
@@ -193,6 +210,9 @@ footer img{
   .evenBlog{
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,0.052258403361344574) 20%, rgba(67,0,0,0) 85%, rgba(255,0,0,0) 100%);
+  }
+  .icon-link:hover{
+    color: black;
   }
 }
 @media only screen and (max-width: 1190px) {
@@ -229,6 +249,13 @@ footer img{
 @media only screen and (max-width: 1000px) {
   .Row{
     display: block;
+  }
+  .icons{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 750px){
