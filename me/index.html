@@ -7,7 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
-
+<script src="https://unpkg.com/feather-icons"></script>
 <body>
   <header>
     <a href="../index.html" class="title">Luke Miller</a>
@@ -25,7 +25,8 @@
     <img src="../images/eyes.png" alt="My Eyes">
   </div>
   <article>
-    <h2>ABOUT ME</h2>
+    <i data-feather="user" style="width: 30px; height: 30px; position:absolute; margin-top: 12px; z-index: -1;"></i>
+    <h2 style="margin-left: 40px;">ABOUT ME</h2>
     <hr>
     <br>
     <h3>Academics</h3>
@@ -303,6 +304,7 @@
     if (pridey == true) {
       document.getElementById('prideTarget').scrollIntoView();
     }
+    feather.replace();
     // var currentdate = new Date();
     // var cur_month = currentdate.getMonth() + 1;
     // if (cur_month == 6) {
