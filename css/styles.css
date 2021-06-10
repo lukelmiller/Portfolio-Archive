@@ -190,6 +190,12 @@ footer img{
 .icon-link:hover{
   color: #73e600;
 }
+.title-icon{
+  width: 30px; 
+  height: 30px;
+  vertical-align: middle;
+  margin: 0 10px 3px 10px;
+}
 @media (prefers-color-scheme: light) {
   body{
     height: 100%;
